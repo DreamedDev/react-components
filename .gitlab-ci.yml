@@ -9,5 +9,5 @@ deploy:
   script:
     - yarn install
     - yarn build-lib
-    - echo -e '@d-package:registry=https://gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/npm/\n//gitlab.com/api/v4/packages/npm/:_authToken=${CI_JOB_TOKEN}\n//gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}'>.npmrc
+    - echo -e '@react-components:registry=https://gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/npm/\n//gitlab.com/api/v4/packages/npm/:_authToken=${CI_JOB_TOKEN}\n//gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${CI_JOB_TOKEN}'>.npmrc
     - npm publish
