@@ -1,6 +1,6 @@
 {
   "name": "@react-components/react-components",
-  "version": "0.1.0-dev1",
+  "version": "0.1.0-dev2",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "author": "Norbert Baran",
